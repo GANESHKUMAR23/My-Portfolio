@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    transition: 0.5s all;
 }
 
 :root{
@@ -163,7 +164,7 @@ button:hover{
     font-weight: 550;
     z-index: 100;
 }
-.Home .Home-content button{
+.Home .Home-content a{
     width: 140px;
     padding: 10px;
     border-radius: 15px;
@@ -175,14 +176,14 @@ button:hover{
     background:#8c93a1d8 ;
     z-index: 100;
 }
-.Home .Home-content button:hover{
+.Home .Home-content a:hover{
     background: #ec125b;
     width: 150px;
     padding-left: 15px;
     letter-spacing: 2px;
     box-shadow: 0 15px 10px rgb(0,0,0,0.6);
 }
-.Home .Home-content button:active{
+.Home .Home-content a:active{
     transform: scale(.85);
 }
 .Home .Home-pic{
