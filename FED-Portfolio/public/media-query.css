@@ -1,0 +1,202 @@
+
+
+@media screen and (max-width:770px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .about .content .box-container .box span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .about .content .box-container .box p{
+        font-size: 14px;
+    }
+    .skills .skills-type li{
+        font-size: 1.9em;
+    }
+    .portbox{
+        width: 70% !important;
+    }
+    .contact{
+        padding-bottom: 20px;
+    }
+    .contact .heading-conatct{
+        width: 40%;
+        padding-left: 10px;
+    }
+    .contact .message{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width:426px){
+
+    body{
+        width: 87%;
+       overflow-x: hidden;
+    }
+
+    .Home{
+        width: 115%;
+        overflow-x: hidden;
+    }
+    .Home .Home-content{
+        width: 100%;
+    } 
+    .Home .Home-pic{
+       display: none;
+    }
+
+    .about{
+        width: 115%;
+        flex-direction: column;
+        margin: 25px 0;
+    }
+    .about .about-img{
+        width: 65%;
+    }
+    .about .box{
+        width: 100%;
+    }
+    .about .content .box-container .box span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .about .content .box-container .box p{
+        font-size: 14px;
+    }
+    .service
+    {
+        width: 115%;
+        padding-bottom: 20px;
+    }
+    .skills{
+        width: 115%;
+    }
+    .skills .skills-type li{
+        font-size: 1.4em;
+    }
+    .box .bar-box{
+        width: 400px;
+    }
+    .box .bar-box .bar .progress-line{
+        width: 340px;
+    }
+    .portfolio{
+        width: 115%;
+    }
+    .contact{
+        width: 115%;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    .contact .heading-conatct{
+        width: 60%;
+    }
+    .contact .message{
+        width: 80%;
+    }
+    footer{
+        width: 115%;
+    }
+    footer section p{
+        font-size: 15px;
+    }
+    .collapse{
+        background: red;
+    }
+
+}
+
+@media screen and (max-width:380px){
+    .box .bar-box{
+        width: 340px;
+        border-radius: 10px;
+        padding: 10px 14px;
+        overflow-x: hidden;
+    }
+    .box .bar-box .bar .progress-line{
+        width: 300px;
+    }
+    footer section p{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width:324px){
+    
+    .Home-content .text-name{
+        font-size: 1.1em;
+    }
+    .about-img{
+        width: 75% !important;
+        height: 80% !important;
+    }
+    .about .content .box-container .box p{
+        font-size: 12px;
+    }
+    .box .content h3{
+        font-size: 1.5em;
+    }
+    .service .Container h1{
+        letter-spacing: 1px;
+        position: relative;
+        top: 80px;
+    }
+    .service .Container h1 span{
+        color: var(--orange);
+        font-size: .98em;
+    }
+    .service .Container h1::before{
+        position: absolute;
+        content: '';
+        width: 162px;
+        height: 3px;
+        top: 40px;
+        left: 65px;
+        border-radius: 10px;
+        background: #000;
+    }
+    .box .bar-box .bar .info{
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .box .bar-box .bar .progress-line{
+        width: 250px;
+    }
+    .contact .message{
+        width: 80%;
+        height: 90%;
+        margin-top: 50px;
+    }
+    .contact .heading-conatct h2{
+        font-size: 2.5em;
+        letter-spacing: 2px;
+    }
+    .contact .heading-conatct h2::before{
+        top: 45px;
+        width: 170px;
+    }
+    .contact .heading-conatct h2::after{
+        font-size: .7em;
+        top: 33px;
+        left: 180px;
+    }
+    .contact .message h2{
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .contact .message .input-BOX button{
+        width: 110px;
+        height: 30px;
+    }
+    .contact .message .input-BOX span{
+        left: 15px;
+    }
+}
