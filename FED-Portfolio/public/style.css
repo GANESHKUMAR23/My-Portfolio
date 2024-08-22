@@ -88,9 +88,10 @@ button:hover{
 }
 .navbar-collapse{
     width: 100%;
+    /* background: red; */
 }
 .navbar-collapse ul li{
-    margin: 7px 10px;
+    margin: 10px;
 }
 .navbar-collapse ul li a{
   color: #8c93a1d8 ;
@@ -106,7 +107,15 @@ button:hover{
     padding-bottom: 2px;
     border-bottom: 2px solid #8c93a1d8;
 }
-
+.in{
+    transition: 0;
+    width: 104% !important;
+    border-radius: 4px;
+}
+.in ul li{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #000;
+}
 /* --------------------------NAVBAR SECTION END-------------------------------------------------- */
 /* -----------------------------------HOME SECTION START-------------------------------- */
 .Home{
@@ -597,6 +606,7 @@ button:hover{
 .skills .heading h1{
     font-size: 2.5em;
     color: var(--yellow);
+    /* color: red; */
     position: relative;
 }
 .skills .skills-type{

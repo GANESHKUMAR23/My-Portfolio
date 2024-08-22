@@ -115,7 +115,7 @@
 
 @media screen and (max-width:380px){
     .box .bar-box{
-        width: 340px;
+        width: 330px;
         border-radius: 10px;
         padding: 10px 14px;
         overflow-x: hidden;
@@ -126,10 +126,13 @@
     footer section p{
         font-size: 12px;
     }
+    
 
 }
 
-@media screen and (max-width:324px){
+@media screen and (max-width:325px){
+
+    
     
     .Home-content .text-name{
         font-size: 1.1em;
@@ -137,6 +140,9 @@
     .about-img{
         width: 75% !important;
         height: 80% !important;
+    }
+    .skills .skills-type li{
+        font-size: 1.2em;
     }
     .about .content .box-container .box p{
         font-size: 12px;
@@ -163,13 +169,22 @@
         border-radius: 10px;
         background: #000;
     }
+    .box .bar-box{
+        width: 250px !important;
+        border-radius: 10px;
+        padding: 10px 14px;
+        overflow-x: hidden;
+        
+    }
+    .box .bar-box .bar .progress-line{
+        width: 200px !important;
+        
+    }
     .box .bar-box .bar .info{
         font-size: 14px;
         margin-bottom: 6px;
     }
-    .box .bar-box .bar .progress-line{
-        width: 250px;
-    }
+   
     .contact .message{
         width: 80%;
         height: 90%;

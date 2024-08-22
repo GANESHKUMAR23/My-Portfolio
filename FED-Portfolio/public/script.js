@@ -79,7 +79,7 @@ profskills.addEventListener('click',() => {
 });
 
 var type = new Typed(".multitext",{
-    strings : ["web Designer" , "Web Developer","Front-Ender","Coder"],
+    strings : ["Web Designer" , "Web Developer","Full-Stack","Coder"],
     loop : true,
     typeSpeed : 100,
     backSpeed : 80,
